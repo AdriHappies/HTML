@@ -1,0 +1,29 @@
+h1{
+    color: crimson;
+    font-family:'NFS Font', sans-serif;
+    font-size: 50px;
+}
+
+table, thead, tbody, th, td{
+    border: 5px solid darkslategray;
+    border-collapse: collapse;
+}
+
+th{
+    font-family: Starcraft, sans-serif;
+    font-size: 20px;
+    color: deeppink;
+    background-color: black;
+}
+
+dt{
+    font-family: 'Berlin Sans FB', sans-serif;
+    font-size: 30px;
+    color: darkviolet;
+}
+
+img{
+    width: 105px;
+    height: 110px;
+}
+
