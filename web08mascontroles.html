@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Más ejemplos de controles</h1>
+
+    <form>
+        <label>Selecciona un color:</label>
+    <select name="colores">
+        <option value="red">Rojo</option>
+        <option value="green">Verde</option>
+        <option value="blue">Azul</option>
+    </select>
+    <p/>
+    <label>Selecciona un deporte:</label>
+    <select name="deportes" size="3" multiple>
+        <option value="Basket">Baloncesto</option>
+        <option value="Football">Futbol</option>
+        <option value="Padel">Padel</option>
+        <option value="Tennis">Tenis</option>
+        <option value="Handball">Balonmano</option>
+    </select>
+    <p/>
+
+    <label>Introduzca su nombre: </label>
+    <input type="text" name="cajanombre" list="datanombre"><hr/>
+    <datalist id="datanombre">
+        <option value="Ana"/>
+        <option value="Anabel"/>
+        <option value="Adrián"/>
+        <option value="Andrés"/>
+        <option value="Benito"/>
+        <option value="Beatriz"/>
+        <option value="Juan"/>
+        <option value="Jose"/>
+        <option value="Jaina"/>
+        <option value="Roberto"/>
+        <option value="Ricardo"/>
+        <option value="Ruperta"/>
+    </datalist>
+
+    <br/>
+        <button type="submit">
+            Enviar datos
+        </button>
+    </form>
+</body>
+</html>
