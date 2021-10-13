@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Controles de formulario</h1>
+    <form>
+        <label>Introduzca un nombre:</label>
+        <!--Espera un input de texto-->
+        <input type="text" name="cajanombre" required/>
+        <br/>
+        <label>Introduzca su edad:</label>
+        <input type="range" name="rangoedad" min="18" max="65" value="20" step="1" aria-label="18"/>
+        <br/>
+        <label>Introduzca la fecha actual:</label>
+        <input type="date" name="fecha">
+        <br/>
+        <label>Introduzca su contraseña:</label>
+        <input type="password" name="pass" required>
+        <br/>
+        <label>Seleccione una opción:</label>
+        <ul>
+            <li><input type="radio" value="opcion1" name="opcion"/>Opción 1</li>
+            <li><input type="radio" value="opcion2" name="opcion"/>Opción 2</li>
+            <li><input type="radio" value="opcion3" name="opcion"/>Opción 3</li>
+        </ul>
+        <br/>
+        <label>Introduzca su email:</label>
+        <input type="email" name="email" required>
+        <br/>
+        <label>Seleccione las opciones que les interese:</label>
+        <ul>
+            <li><input type="checkbox" name="casilla" value="opcion1">Opción 1</li>
+            <li><input type="checkbox" name="casilla" value="opcion2">Opción 2</li>
+            <li><input type="checkbox" name="casilla" value="opcion3">Opción 3</li>
+        </ul>
+        <br/>
+        <!--hidden es cuando quieres enviar una información que no quieres que vea el usuario-->
+        <input type="hidden" name="identificador" value="1234">
+        <br/>
+        <button type="submit">
+            Enviar datos
+        </button>
+    </form>
+</body>
+</html>
