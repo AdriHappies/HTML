@@ -20,7 +20,18 @@ dd{
     font-size: 25px;
 }
 
-table,tr{
-        border: 5px solid darkslategray;
-        border-collapse: collapse;
+table, tr, td{
+    width: 100%;
+    border-top: 5px solid darkslategray;
+    border-bottom: 5px solid darkslategray;
+    border-collapse: collapse;
+}
+
+label{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+input{
+    font-size: 25px;
 }
